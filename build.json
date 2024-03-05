@@ -71,6 +71,7 @@
   "provisioners": [
       {
         "type": "shell",
+	"pause_after": "60s",
         "execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E bash '{{.Path}}'",
         "script": "scripts/init.sh"
       },
