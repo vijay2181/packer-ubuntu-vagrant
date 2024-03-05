@@ -23,6 +23,8 @@ goto this folder and do cmd
 D:\PACKER\UBUNTU-PACKER
 
 ```
+- download the iso file from
+- http://cdimage.ubuntu.com/ubuntu-legacy-server/releases/20.04/release/ubuntu-20.04.1-legacy-server-amd64.iso
 
 ```
 ls
@@ -33,6 +35,7 @@ ls
 drwxr-xr-x 1 vijay 197121    0 Mar  5 09:00 http/
 drwxr-xr-x 1 vijay 197121    0 Mar  5 09:16 keys/
 drwxr-xr-x 1 vijay 197121    0 Mar  5 09:07 scripts/
+-rw-r--r-- 1 vijay 197121 1487339520 Mar  5 11:25ubuntu-20.04.1-legacy-server-amd64.iso
 ```
 
 ```
