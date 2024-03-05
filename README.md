@@ -14,6 +14,8 @@ D:\PACKER\UBUNTU-PACKER>packer --version
 virtual box version: 6.1.22
 ```
 
+- clone the repo code into D:\PACKER\UBUNTU-PACKER folder
+
 ![image](https://github.com/vijay2181/packer-ubuntu-vagrant/assets/66196388/9c4068cc-ccb3-4397-a4ca-56d4713aadd4)
 
 
