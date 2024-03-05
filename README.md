@@ -53,7 +53,7 @@ packer build build.json
 
 ![image](https://github.com/vijay2181/packer-ubuntu-vagrant/assets/66196388/4db9333f-29ee-4034-b5e2-160f2fd925d8)
 
-- now virtual machine will be destroyed after installing required packages, during build process we can enter into machine by virtualbox gui
+- during build process we can enter into machine by virtualbox gui, now virtual machine will be destroyed after installing required packages, 
 - username: vagrant
 - password: vagrant
 
