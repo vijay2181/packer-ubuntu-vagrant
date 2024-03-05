@@ -43,7 +43,7 @@ packer validate build.json
 packer build build.json
 ```
 
-- here, packer will bring up a virtual machine and installs ubuntu20.04 in it and executes our scripts, required packages, forms vagrant box in outputs folder and exits
+- here, packer will download the iso file and bring up a virtual machine, installs ubuntu20.04 in it and executes our scripts, required packages, forms vagrant box in outputs folder and exits
 - to view the background output of build process, we can view from virtual box gui
 
 ![image](https://github.com/vijay2181/packer-ubuntu-vagrant/assets/66196388/4db9333f-29ee-4034-b5e2-160f2fd925d8)
