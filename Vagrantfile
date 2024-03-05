@@ -17,7 +17,7 @@ Vagrant.configure("2") do |config|
     vb.customize ["modifyvm", :id, "--cpus", "2"]
     vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
     vb.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
-    vb.name = "VAGRANT-BOX-8"
+    vb.name = "VAGRANT-BOX-2004"
   end
 
   config.vm.provision "shell", inline: <<-SHELL
