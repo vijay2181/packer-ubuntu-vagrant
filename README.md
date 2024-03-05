@@ -71,7 +71,6 @@ pwd
 Vagrant.configure("2") do |config|
 
   #config.ssh.insert_key = true
-  #
   #config.ssh.private_key_path = "id_rsa"
 
   config.ssh.username = "vagrant"
