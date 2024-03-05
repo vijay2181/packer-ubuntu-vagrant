@@ -57,10 +57,10 @@ packer build build.json
 
 ```
 vagrant box remove virtualbox-ubuntu2004
-vagrant box add --name virtualbox-ubuntu2004 file:///D:/UBUNTU-PACKER/outputs/virtualbox-ubuntu2004.box
+vagrant box add --name virtualbox-ubuntu2004 file:///D:/PACKER/UBUNTU-PACKER/outputs/virtualbox-ubuntu2004.box
 
 pwd
-/d/UBUNTU-PACKER
+/d/PACKER/UBUNTU-PACKER
 ```
 
 - now this box is added to local vagrant, we need to bringup virtual machine by using this vagrant box and Vagrantfile
@@ -127,7 +127,7 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Checking for guest additions in VM...
 ==> default: Configuring and enabling network interfaces...
 ==> default: Mounting shared folders...
-    default: /vagrant => D:/UBUNTU-PACKER
+    default: /vagrant => D:/PACKER/UBUNTU-PACKER
 Vagrant was unable to mount VirtualBox shared folders. This is usually
 because the filesystem "vboxsf" is not available. This filesystem is
 made available via the VirtualBox Guest Additions and kernel module.
