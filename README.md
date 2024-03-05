@@ -70,12 +70,8 @@ pwd
 
 Vagrant.configure("2") do |config|
 
-  #config.ssh.insert_key = true
-  #config.ssh.private_key_path = "id_rsa"
-
   config.ssh.username = "vagrant"
   config.ssh.password = "vagrant"
-  #config.ssh.auth_methods = ["password"]
 
   config.vm.box = "virtualbox-ubuntu2004"
 
